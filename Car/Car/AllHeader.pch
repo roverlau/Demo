@@ -1,0 +1,134 @@
+//
+//  AllHeader.pch
+//  Car
+//
+//  Created by qianfeng on 15/10/28.
+//  Copyright (c) 2015年 qianfeng. All rights reserved.
+//
+
+#ifndef Car_AllHeader_pch
+#define Car_AllHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "Defination.h"
+
+//第一个界面最上方
+#define LEAD_URL @"http://api.daogou.bjzzcb.com/v1/cate/list"
+
+//中间滚动的广告视图
+#define MIDDLE_AD_URL @"http://api.daogou.bjzzcb.com/v3/channel/focus"
+
+
+//最新
+//#define NEW_NEWS_URL @"http://api.daogou.bjzzcb.com/v3/channel/home2_2_1?topicId=0&startId=0&cate=0&count=20&tagId=0&tord=up"
+
+#define NEW_NEWS_URL @"http://api.daogou.bjzzcb.com/v3/channel/home2_2_1"
+
+//全部
+//#define ALL_URL @"http://api.daogou.bjzzcb.com/v2/article/list?topicId=0&startId=0&cate=1362&count=20&tagId=0&tord=up"
+
+////最新
+//#define NEW_NEWS_URL @"http://api.daogou.bjzzcb.com/v3/channel/home2_2_1?topicId=0&startId=0&cate=0&count=20&tagId=0&tord=up"
+
+//新车
+//#define NEW_CAR_URL @"http://api.daogou.bjzzcb.com/v2/article/list?topicId=0&startId=0&cate=1360&count=20&tagId=0&tord=up"
+#define NEW_CAR_URL @"http://api.daogou.bjzzcb.com/v2/article/list"
+
+//试驾
+//#define TRY_CAR_URL @"http://api.daogou.bjzzcb.com/v2/article/list?topicId=0&startId=0&cate=1361&count=20&tagId=0&tord=up"
+#define TRY_CAR_URL @"http://api.daogou.bjzzcb.com/v2/article/list"
+
+//新闻
+//#define  NEWS_URL @"http://api.daogou.bjzzcb.com/v2/article/list?topicId=0&startId=0&cate=1362&count=20&tagId=0&tord=up"
+#define  NEWS_URL @"http://api.daogou.bjzzcb.com/v2/article/list"
+
+//图趣
+//#define IMAGE_URL @"http://api.daogou.bjzzcb.com/v2/article/list?topicId=0&startId=0&cate=1363&count=20&tagId=0&tord=up"
+#define IMAGE_URL @"http://api.daogou.bjzzcb.com/v2/article/list"
+
+//导购
+//#define SHOP_URL @"http://api.daogou.bjzzcb.com/v2/article/list?topicId=0&startId=0&cate=1364&count=20&tagId=0&tord=up"
+#define SHOP_URL @"http://api.daogou.bjzzcb.com/v2/article/list"
+
+//优惠
+//#define FREE_URL @"http://api.daogou.bjzzcb.com/v2/article/list?topicId=0&startId=0&cate=1365&count=20&tagId=0&tord=up"
+#define FREE_URL @"http://api.daogou.bjzzcb.com/v2/article/list"
+
+//视频
+#define VEDIO_URL @"http://api.daogou.bjzzcb.com/v2/article/list"
+//#define VEDIO_URL @"http://api.daogou.bjzzcb.com/v2/article/list?topicId=0&startId=0&cate=1449&count=20&tagId=0&tord=up"
+
+//点击cell之后的评论
+#define COMMENT_LABEL_URL @"http://api.daogou.bjzzcb.com/v3/comment/list2_2_1?startId=0&aid=8944&type=1&count=10&tord=up"
+
+//点击cell之后的数据详情
+#define  DATA_DETAIL_URL @"http://api.daogou.bjzzcb.com/v3/article/info"
+//#define DATA_DETAIL_URL @"http://api.daogou.bjzzcb.com/v3/article/info?id=8925"
+
+//固定的搜索关键字
+#define SEARCH_KEY_URL @"http://api.daogou.bjzzcb.com/v2/search/hotword"
+
+//http://api.daogou.bjzzcb.com/v3/questions/search?count=20&tord=up&startId=0&keywords=奥迪
+
+//搜索后的结果
+#define SEARCH_RESULT_URL @"http://api.daogou.bjzzcb.com/v2/search/list"
+//#define SEARCH_RESULT_URL @"http://api.daogou.bjzzcb.com/v2/search/list?keyword=%E8%8B%B1%E6%9C%97"
+
+//专家选车问答
+#define SELECTED_QUESTION_URL @"http://api.daogou.bjzzcb.com/v3/questionsAnswers/ifhaveqdoing"
+
+//问题
+#define QUESTION_URL @"http://api.daogou.bjzzcb.com/v3/questionsAnswers/qlist2_2_1?count=20&tord=up&startId=0"
+
+//点击cell专家回复
+#define QUESTION_ANSWER_URL @"http://api.daogou.bjzzcb.com/v3/questions/detail?q_id=13&registration_id=02046b168bd&x=1446949796378"
+
+//问题搜索关键字
+//#define QUESTION_KEYWORD_URL @"http://api.daogou.bjzzcb.com/v3/questions/search?count=20&tord=up&startId=0&keywords=%E5%A5%A5%E8%BF%AA"
+#define QUESTION_KEYWORD_URL @"http://api.daogou.bjzzcb.com/v3/questions/search"
+
+//评论回复
+//define COMMAND_REPLY_URL @"http://api.daogou.bjzzcb.com/v3/comment/new2_2_1?type=3&aid=12"
+#define COMMAND_REPLY_URL @"http://api.daogou.bjzzcb.com/v3/comment/list2_2_1"
+
+//评论详情
+#define REPLY_DETAIL_URL @"http://api.daogou.bjzzcb.com/v3/questions/detail?q_id=12&registration_id=02046b168bd&x=1446296198035"
+
+
+//车型库
+#define BRAND_URL @"http://api.daogou.bjzzcb.com/m/spider/brandp/"
+
+//车型
+#define BRAND_CAR_URL @"http://api.daogou.bjzzcb.com/m/spider/pserisel/"
+
+//#define BRAND_CAR_URL @"http://api.daogou.bjzzcb.com/m/spider/pserisel/?pbid=2"
+
+//车系信息
+#define CAR_SERIES_URL @"http://api.daogou.bjzzcb.com/m/spider/carm/"
+//#define CAR_SERIES_URL @"http://api.daogou.bjzzcb.com/m/spider/carm/?pserid=313"
+
+
+//参数配置
+#define CAR_PARAMETER_URL @"http://api.daogou.bjzzcb.com/m/spider/carconfig/"
+//#define CAR_Parameter_URL @"http://api.daogou.bjzzcb.com/m/spider/carconfig/?mid=13175";
+
+
+//两辆车相比较
+#define TWO_CAR_PARAMETER_URL @"http://api.daogou.bjzzcb.com/m/spider/contrast"
+//#define TWO_CAR_PARAMETER_URL @"http://api.daogou.bjzzcb.com/m/spider/contrast?mids=26238,9732"
+
+//活动中心
+#define ACTIVITY_CENTER_URL @"http://api.daogou.bjzzcb.com/v3/hd/list"
+
+//活动详情
+#define ACTIVITY_DETAIL_URL @"http://api.daogou.bjzzcb.com/v2/lottory/index"
+//评论
+#define COMMENT_URL @"http://api.daogou.bjzzcb.com/v3/comment/list2_2_1?startId=0&aid=2&count=10&type=2&tord=up"
+
+//推荐安装
+#define RECOMMEND_URL @"http://api.daogou.bjzzcb.com/v2/ad/app?count=20&os=android&weight=0"
+
+
+#endif
