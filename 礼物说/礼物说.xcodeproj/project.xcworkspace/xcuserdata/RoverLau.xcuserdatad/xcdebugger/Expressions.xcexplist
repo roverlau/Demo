@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[ViewController configerUI]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.dataArrImg">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BeauTableViewController tableView:numberOfRowsInSection:]:BeauTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.dataBeau.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[HotViewController collectionView:numberOfItemsInSection:]:HotViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.dataArr.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__33-[ViewController requestNetTilte]_block_invoke:ViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,63 @@
+//
+//  PrefixHeader.pch
+//  猿生活
+//
+//  Created by RoverLau on 15/11/4.
+//  Copyright (c) 2015年 RoverLau. All rights reserved.
+//
+
+#ifndef ____PrefixHeader_pch
+#define ____PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "MJRefresh.h"
+#import "EGOCache.h"
+#import "UMSocial.h"
+#import "UMSocialQQHandler.h"
+#import "UMSocialWechatHandler.h"
+#import "UMSocialWhatsappHandler.h"
+
+#define URL_HOME  @"http://114.215.174.14:8080/apelife/API/articleList?time=130910956284023204"//  home
+#define URL_HOMEMORE @"http://114.215.174.14:8080/apelife/API/moreArticle?lastId=%ld"
+#define URL_HOMEINFO @"http://114.215.174.14:8080/apelife/API/articleContent?id=%@" //详情魅族连续发布了旗舰机型PRO 5以及千元金属机魅蓝metal，但现在又有魅族新机PRO 5 mini消息传来。PRO 5 mini为小屏旗舰，将与PRO 5组成双旗舰。目前，PRO 5 mini的相关信息如配置、售价、上市时间已经被曝光了。
+
+#define URL_shoping   @"http://114.215.174.14:8080/apelife/API/goodsList?time=130910961187507259"  //   shoping
+#define URL_shopMore @"http://114.215.174.14:8080/apelife/API/goodsList?lastId=%ld"//shopmore
+#define URL_shopInfo @"http://114.215.174.14:8080/apelife/API/goodsContent?id=%@"//shopInfo
+
+
+
+#define URL_beau @"http://114.215.174.14:8080/apelife/API/beautyList?time=130911637993654856"//beautiful
+#define URL_beauMore @"http://114.215.174.14:8080/apelife/API/beautyList?lastId=%@"
+
+#define URL_shame   @"http://114.215.174.14:8080/apelife/API/articleByChannel?channelId=2&time=130910964858767520"  //shame
+#define URL_shameMore @"http://114.215.174.14:8080/apelife/API/articleByChannel?channelId=2&lastId=%ld";
+
+#define URL_jike   @"http://114.215.174.14:8080/apelife/API/articleByChannel?channelId=3&time=130910966498583505"//  jike
+#define URL_jikeMore @"http://114.215.174.14:8080/apelife/API/articleByChannel?channelId=3&lastId=%ld"
+
+#define URL_keji  @"http://114.215.174.14:8080/apelife/API/articleByChannel?channelId=1&time=130910967001991364"//  keji
+#define URL_kejiMore @"http://114.215.174.14:8080/apelife/API/articleByChannel?channelId=1&lastId=%ld"
+
+
+#define URL_heike   @"http://114.215.174.14:8080/apelife/API/articleByChannel?channelId=4&time=130910967726833120"// heike
+#define URL_hekeMore @"http://114.215.174.14:8080/apelife/API/articleByChannel?channelId=4&lastId=%ld"
+
+#define URL_cye  @"http://114.215.174.14:8080/apelife/API/articleByChannel?channelId=5&time=130910967927223537"//  cye
+#define URL_cyeMore @"http://114.215.174.14:8080/apelife/API/articleByChannel?channelId=5&lastId=%ld"
+
+#define URL_MIC @"http://114.215.174.14:8080/apelife/API/articleByChannel?channelId=6&time=130913346441956360"  //mic
+#define URL_MICInfo @"http://114.215.174.14:8080/apelife/API/articleContent?id=%@"
+#define URL_MICMore @"http://114.215.174.14:8080/apelife/API/articleByChannel?channelId=6&lastId=%ld"
+
+
+
+#define HEIGHT [UIScreen mainScreen].bounds.size.height
+#define WIGTH [UIScreen mainScreen].bounds.size.width
+
+#endif

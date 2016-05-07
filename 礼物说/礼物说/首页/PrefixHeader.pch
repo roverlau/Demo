@@ -1,0 +1,41 @@
+//
+//  PrefixHeader.pch
+//  礼物说
+//
+//  Created by RoverLau on 15/10/28.
+//  Copyright (c) 2015年 RoverLau. All rights reserved.
+//
+
+#ifndef ____PrefixHeader_pch
+#define ____PrefixHeader_pch
+
+ #ifdef __OBJC__
+
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "MJRefresh.h"
+//#import "ZCZBarViewController.h"
+//#import "QRCodeGenerator.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//ScrollView接口
+#define URL_SCR @"http://api.liwushuo.com/v1/banners?_=635815059420353341"
+//四格图像接口
+#define URL_IMG @"http://api.liwushuo.com/v2/promotions?generation=2&gender=1&_=635815059427884340"
+//首页接口
+#define URL_HOME @"http://api.liwushuo.com/v2/channels/101/items?offset=%ld&limit=20&generation=2&gender=1&_=635815089487349097"
+//美好小物接口
+#define URL_BEAU @"http://api.liwushuo.com/v1/collections/22/posts?offset=%ld&limit=20&_=635815060228960021"
+//专题
+#define URL_ZT @"http://api.liwushuo.com/v1/collections?offset=0&limit=20&_=635815060579667777"
+
+//分类
+#define URL_FL  @"http://api.liwushuo.com/v1/channel_groups/all?_=635816283046693367"
+//分类-下
+#define URL_FL_K @"http://api.liwushuo.com/v1/channels/%@/items?offset=0&limit=20&_=635816844047644920"
+
+
+
+#endif
+#endif

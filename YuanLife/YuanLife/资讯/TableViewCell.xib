@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="187" id="KGk-i7-Jjw" customClass="TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="376" height="187"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rsq-go-Sds">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="53"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="53" id="QTp-W9-CrT"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NpZ-OC-Xiz">
+                        <rect key="frame" x="0.0" y="53" width="375" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="l10-C4-wzp"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yfx-py-FPb">
+                        <rect key="frame" x="0.0" y="82" width="113" height="99"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="113" id="0WT-iZ-ajx"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E20-od-zBi">
+                        <rect key="frame" x="121" y="82" width="254" height="99"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="rsq-go-Sds" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="0er-6N-GdI"/>
+                    <constraint firstAttribute="trailing" secondItem="E20-od-zBi" secondAttribute="trailing" constant="1" id="9Mx-ne-fpI"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="NpZ-OC-Xiz" secondAttribute="trailing" constant="-7" id="EqH-OH-PmO"/>
+                    <constraint firstItem="E20-od-zBi" firstAttribute="top" secondItem="NpZ-OC-Xiz" secondAttribute="bottom" constant="8" id="Mra-Ac-Lna"/>
+                    <constraint firstItem="E20-od-zBi" firstAttribute="leading" secondItem="yfx-py-FPb" secondAttribute="trailing" constant="8" id="NYW-5u-E1u"/>
+                    <constraint firstItem="rsq-go-Sds" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Pqg-Zg-c3t"/>
+                    <constraint firstItem="yfx-py-FPb" firstAttribute="leading" secondItem="NpZ-OC-Xiz" secondAttribute="leading" id="RTp-cS-BPc"/>
+                    <constraint firstAttribute="bottom" secondItem="E20-od-zBi" secondAttribute="bottom" constant="5" id="XMu-lu-CJp"/>
+                    <constraint firstItem="NpZ-OC-Xiz" firstAttribute="top" secondItem="rsq-go-Sds" secondAttribute="bottom" id="dAe-yT-Zqt"/>
+                    <constraint firstItem="yfx-py-FPb" firstAttribute="bottom" secondItem="E20-od-zBi" secondAttribute="bottom" id="edQ-Rh-6Es"/>
+                    <constraint firstItem="yfx-py-FPb" firstAttribute="top" secondItem="E20-od-zBi" secondAttribute="top" id="fKo-ja-Rjp"/>
+                    <constraint firstAttribute="trailing" secondItem="rsq-go-Sds" secondAttribute="trailing" constant="1" id="mxk-J7-GXt"/>
+                    <constraint firstItem="NpZ-OC-Xiz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="nBb-7x-8mP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="content" destination="E20-od-zBi" id="1FO-WH-MEX"/>
+                <outlet property="img" destination="yfx-py-FPb" id="jan-fb-0Ds"/>
+                <outlet property="time" destination="NpZ-OC-Xiz" id="kyy-bY-3LY"/>
+                <outlet property="title" destination="rsq-go-Sds" id="t8U-Km-z0D"/>
+            </connections>
+            <point key="canvasLocation" x="167" y="397.5"/>
+        </tableViewCell>
+    </objects>
+</document>

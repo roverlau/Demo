@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="158" id="KGk-i7-Jjw" customClass="SHTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="158"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Uwh-df-MEG">
+                        <rect key="frame" x="0.0" y="8" width="122" height="141"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="122" id="1eP-YI-mzC"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="全球购       2015 - 11 -05" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xg1-WR-tKn">
+                        <rect key="frame" x="130" y="0.0" width="245" height="29"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="29" id="Ive-f8-YMa"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 全球购优选金牌卖家，has 最新出品绅士黑色五折晴雨伞，配有手提拉链盒，创意实用，携带非常方便！" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIS-2f-uCG">
+                        <rect key="frame" x="130" y="30" width="245" height="95"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥ 299.99" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dJv-tP-AhL">
+                        <rect key="frame" x="130" y="128" width="245" height="29"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="xg1-WR-tKn" secondAttribute="trailing" id="20L-Qn-dpy"/>
+                    <constraint firstItem="Uwh-df-MEG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="BQU-go-o0K"/>
+                    <constraint firstAttribute="bottom" secondItem="Uwh-df-MEG" secondAttribute="bottom" constant="8" id="GP3-eR-XxZ"/>
+                    <constraint firstItem="xg1-WR-tKn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="130" id="HyZ-jb-Mzo"/>
+                    <constraint firstAttribute="bottom" secondItem="DIS-2f-uCG" secondAttribute="bottom" constant="32" id="L3Z-1f-PHh"/>
+                    <constraint firstItem="Uwh-df-MEG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="MGK-Ka-dKA"/>
+                    <constraint firstAttribute="trailing" secondItem="dJv-tP-AhL" secondAttribute="trailing" id="Nc2-bc-Eqy"/>
+                    <constraint firstItem="DIS-2f-uCG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="130" id="PQX-mx-2wf"/>
+                    <constraint firstItem="dJv-tP-AhL" firstAttribute="top" secondItem="DIS-2f-uCG" secondAttribute="bottom" constant="3" id="Uce-oS-K4b"/>
+                    <constraint firstItem="xg1-WR-tKn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="X1p-vi-dp1"/>
+                    <constraint firstAttribute="trailing" secondItem="DIS-2f-uCG" secondAttribute="trailing" id="ct7-Sv-7K2"/>
+                    <constraint firstAttribute="bottom" secondItem="dJv-tP-AhL" secondAttribute="bottom" id="frz-Fs-Xjd"/>
+                    <constraint firstItem="DIS-2f-uCG" firstAttribute="top" secondItem="xg1-WR-tKn" secondAttribute="bottom" constant="1" id="thn-X0-EAt"/>
+                    <constraint firstItem="dJv-tP-AhL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="130" id="tqH-tv-U7K"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="content" destination="xg1-WR-tKn" id="r1L-XG-ffO"/>
+                <outlet property="imgView" destination="Uwh-df-MEG" id="M1g-hC-D2k"/>
+                <outlet property="price" destination="dJv-tP-AhL" id="Zdc-he-ct8"/>
+                <outlet property="title" destination="DIS-2f-uCG" id="8sn-AC-9ep"/>
+            </connections>
+            <point key="canvasLocation" x="327.5" y="458"/>
+        </tableViewCell>
+    </objects>
+</document>
